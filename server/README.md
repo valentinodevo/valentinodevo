@@ -3,8 +3,8 @@
 
 To build server into docker-image and save docker-image to docker hub:
 ```
-docker build --tag valentinodevo/server:stable .
-docker push valentinodevo/server:stable
+$ docker build --tag valentinodevo/server:stable .
+$ docker push valentinodevo/server:stable
 ```
 
 Example of command with defined port and message to run server and test work of it:
